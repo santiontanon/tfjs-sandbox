@@ -1,0 +1,3 @@
+mkdir -p js
+tsc --removeComments --noUnusedLocals --skipLibCheck --target es6 src/*.ts
+mv src/*.js js
